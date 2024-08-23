@@ -1,5 +1,7 @@
 # RT-Frontend
 
+## [YouTube Link](https://www.youtube.com/watch?v=9tm4cIrfKpo)
+
 ## Home page, gets all the records
 
 ![Home](note-app/src/assets/home.png)
