@@ -28,7 +28,7 @@ const AddNotePage = ({ addNote }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h5>Add New Note</h5>
+      <h5>Add New Record</h5>
       <div className="mb-3">
         <label htmlFor="exampleFormControlInput1" className="form-label">
           Title
@@ -36,7 +36,7 @@ const AddNotePage = ({ addNote }) => {
         <input
           className="form-control"
           id="exampleFormControlInput1"
-          placeholder="Enter note's title"
+          placeholder="Enter record's title"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
@@ -78,7 +78,7 @@ const AddNotePage = ({ addNote }) => {
         className="btn btn-primary d-flex justify-content-center"
         style={{ width: "100%" }}
       >
-        Add Note
+        Add Record
       </button>
     </form>
   );

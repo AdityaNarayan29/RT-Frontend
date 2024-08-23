@@ -67,7 +67,7 @@ const App = () => {
       .post("http://127.0.0.1:8004/notes/", data)
       .then((res) => {
         setNotes([...notes, data]);
-        toast.success("A new note has been added");
+        toast.success("A new record has been added");
         console.log(res.data);
       })
 
@@ -81,7 +81,7 @@ const App = () => {
       .put(`http://127.0.0.1:8004/notes/${slug}/`, data)
       .then((res) => {
         console.log(res.data);
-        toast.success("Note updated succesfully");
+        toast.success("Record updated succesfully");
       })
 
       .catch((err) => console.log(err.message));

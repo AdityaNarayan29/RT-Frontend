@@ -32,7 +32,7 @@ const NavBar = ({ searchText, handelSearchText }) => {
             type="button"
 
           >
-            <FaSquarePlus className="me-2 fs-6" /> Add Notes
+            <FaSquarePlus className="me-2 fs-6" /> Add Records
           </button>
         </Link>
       </div>
