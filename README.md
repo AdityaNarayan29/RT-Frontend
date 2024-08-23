@@ -11,10 +11,12 @@
 ## Search box, gets all the superset records
 ![Home](note-app/src/assets/search.png)
 
-## Deatils page gets the record details with edit and delete options
-
-![Home](note-app/src/assets/home.png)
-
 ## Add record, posts new records
 
 ![Home](note-app/src/assets/add.png)
+
+## Details page gets the record details with edit and delete options
+
+![Home](note-app/src/assets/details.png)
+
+## [Link to backend](https://github.com/AdityaNarayan29/RT-Backend/)
