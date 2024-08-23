@@ -11,6 +11,7 @@
 ![Home](note-app/src/assets/filter.png)
 
 ## Search box, gets all the superset records
+
 ![Home](note-app/src/assets/search.png)
 
 ## Add record, posts new records
